@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "ejercicio6.dtd">
+<pedidos>
+    <pedido>
+        <cliente>
+            <nombre>Roberto Movilla</nombre>
+            <direccionenvio>Plaza de la Duquesa 12, Albacete</direccionenvio>
+            <direccionpago>General Ricardos 56, Madrid</direccionpago>
+        </cliente>
+        <empleado>Manuel Jiménez</empleado>
+
+        <correo>
+        Hola, necesito una cortadora de césped para mi jardín
+        de esas que anuncian en oferta, me gustaría que fuera
+        uno de esos modelos eléctricos, pues las de gasolina
+        contaminan mucho. Me llamo Roberto Movilla, la 
+        cortadora la tendrán que enviar a Albacete, la 
+        dirección es Plaza de la Duquesa 12, la recogerá mi
+        esposa que se llama Alicia Abad. Ahora que lo pienso
+        también necesitaré 3 podadoras para los setos.
+        Les paso mi dirección de aquí para lo referente
+        al pago, es General Ricardos 56, aquí en Madrid.
+        Es urgente, por favor, el césped está muy alto.
+        </correo>
+
+        <fechapedido>20/10/2010</fechapedido>
+        <codigopostalenvio>05020</codigopostalenvio>
+        <codigopostalpago>28055</codigopostalpago>
+
+        <producto>
+            <tipo>Cortadora</tipo>
+            <electrica>Es eléctrica</electrica>
+            <codigoproducto>872-AA</codigoproducto>
+            <precio>148.95</precio>
+        </producto>
+
+        <producto>
+            <tipo>Podadora</tipo>
+            <codigoproducto>Podadora: 926-FH</codigoproducto>
+            <precio>Precio podadora: 7.98</precio>
+        </producto> 
+
+    </pedido>
+</pedidos>

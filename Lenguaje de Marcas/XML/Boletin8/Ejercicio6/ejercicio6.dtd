@@ -1,0 +1,16 @@
+<!ELEMENT pedidos (pedido*)>
+<!ELEMENT pedido (cliente, empleado, correo, fechapedido, codigopostalenvio, codigopostalpago, producto*)>
+<!ELEMENT cliente (nombre, direccionenvio, direccionpago)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccionenvio (#PCDATA)>
+<!ELEMENT direccionpago (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT fechapedido (#PCDATA)>
+<!ELEMENT codigopostalenvio (#PCDATA)>
+<!ELEMENT codigopostalpago (#PCDATA)>
+<!ELEMENT producto (tipo, electrica?, codigoproducto, precio)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT electrica (#PCDATA)>
+<!ELEMENT codigoproducto (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>

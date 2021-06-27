@@ -1,0 +1,14 @@
+/*
+EJERCICIO 5 PUNTO 3.
+Para aplicar una hoja de estilos a un documento XML escribimos la siguiente línea de código: 
+<?xml-stylesheet type="text/css" href="discoteca.css"?>
+Esta línea tendrá lugar de forma general en la segunda línea de nuestro script 
+dejando el inicio del archivo.xml de esta manera:
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="libros.css"?>
+Una vez escrita esta línea de código podremos usar nuestra hoja de estilo com cualquier otra.
+*/
+
+libro {
+    display: block;
+}

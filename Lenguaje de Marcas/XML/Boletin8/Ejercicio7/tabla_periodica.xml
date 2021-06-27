@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elementos [
+<!ELEMENT elementos (elemento*)>
+<!ELEMENT elemento (estado, nombre, simbolo, numero_atomico, peso_atomico, punto_ebullicion, densidad)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT nombre (codigo | nombre2 | (codigo,nombre2) | (nombre2,codigo)) >
+<!ELEMENT codigo EMPTY>
+<!ATTLIST codigo idcod ID #REQUIRED>
+<!ATTLIST codigo cantidad CDATA #IMPLIED>
+<!ELEMENT nombre2 (#PCDATA)>
+<!ELEMENT simbolo (#PCDATA)>
+<!ELEMENT numero_atomico (#PCDATA)>
+<!ELEMENT peso_atomico (#PCDATA)>
+<!ELEMENT punto_ebullicion (unidades)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT densidad (unidades)>
+]>
+<elementos>
+    <elemento>
+        <estado>Líquido</estado>
+        <nombre>
+            <codigo idcod="codigo1"/>
+            <nombre2>Mercurio</nombre2>
+        </nombre>
+        <simbolo>Hg</simbolo>
+        <numero_atomico>80</numero_atomico>
+        <peso_atomico>200,59 umas</peso_atomico>
+        
+        <punto_ebullicion>
+            <unidades>356,7 ºC</unidades>
+        </punto_ebullicion>
+
+        <densidad>
+            <unidades>16,6 g/ml</unidades>
+        </densidad>
+    </elemento>
+    <elemento>
+        <estado>Líquido</estado>
+        <nombre>
+            <nombre2>Manu</nombre2>
+        </nombre>
+        <simbolo>Hg</simbolo>
+        <numero_atomico>80</numero_atomico>
+        <peso_atomico>200,59 umas</peso_atomico>
+        
+        <punto_ebullicion>
+            <unidades>356,7 ºC</unidades>
+        </punto_ebullicion>
+
+        <densidad>
+            <unidades>16,6 g/ml</unidades>
+        </densidad>
+    </elemento>
+    <elemento>
+        <estado>Líquido</estado>
+        <nombre>
+            <codigo idcod="Adán_y_Eva2"/>
+        </nombre>
+        <simbolo>Hg</simbolo>
+        <numero_atomico>80</numero_atomico>
+        <peso_atomico>200,59 umas</peso_atomico>
+        
+        <punto_ebullicion>
+            <unidades>356,7 ºC</unidades>
+        </punto_ebullicion>
+
+        <densidad>
+            <unidades>16,6 g/ml</unidades>
+        </densidad>
+    </elemento>
+    
+</elementos>

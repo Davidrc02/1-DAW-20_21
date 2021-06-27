@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="libros.css"?>
+<!DOCTYPE libros SYSTEM "libros.dtd">
+<libros>
+    <libro>
+        <titulo>Libro1</titulo>
+        <autor>Manuel</autor>
+        <isbn>5222222</isbn>  
+        <precio>40</precio> 
+    </libro>
+    <libro>
+        <titulo>Libro2</titulo>
+        <autor>David</autor>
+        <autor>Mario</autor>
+        <isbn>5333333</isbn>  
+        <precio>50</precio> 
+    </libro>
+    <libro>
+        <titulo>Libro3</titulo>
+        <autor>Jesús</autor> 
+        <precio>60</precio>
+    </libro>
+    <libro>
+        <titulo>Libro4</titulo>
+        <autor>Antonio</autor>
+        <isbn>5555555</isbn>  
+        <precio>70</precio>
+        <precio>90</precio>
+    </libro>
+    <libro>
+        <titulo>Libro5</titulo>
+        <autor>Francisco</autor>
+        <isbn>5666666</isbn>
+    </libro>
+</libros>
