@@ -1,0 +1,21 @@
+@charset"UTF-8";
+body {
+	background-color: yellow;
+}
+
+#lista1 {
+	list-style-image: url(images/checkbox_trans.png);
+}
+
+ul li {
+	background-color: #FDE;
+}
+
+#lista2 {
+	list-style-image: url(images/radiobutton_trans.png);
+	background-color: #FDE;
+	margin-top: 2.5em;
+	margin-right: 2em;
+	padding-left: 1.5em;
+	margin-left: 1.2em;
+}
