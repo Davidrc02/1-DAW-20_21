@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"> 
+  <head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Ejemplo de formulario lista desplegable y textarea</title> 
+  </head> 
+  <body>
+	<h3>Formulario con lista desplegable y text área</h3> 
+	<form action="insertar_producto.php" method="post"> 
+		<p><label for="nombre">Nombre del producto</label> <br/> <input type="text" id="nombre" name="nombre" value="" /></p>
+ 		<p><label for="descripcion">Descripción del producto</label> <br/><textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea> </p>
+
+
+		<p><label for="so">Sistema operativo</label> <br/>
+    <select id="so" name="so"> 
+			<option value="" selected="selected">- selecciona -</option> 
+			<option value="windows">Windows</option> 
+			<option value="mac">Mac</option> 
+			<option value="linux">Linux</option> 
+			<option value="otro">Otro</option> 
+    </select> </p>
+
+		<p><label for="so2">Sistema operativo</label> <br/>
+      <select id="so2" name="so2" size="5"> 
+    			<option value="windows" selected="selected">Windows</option> 
+    			<option value="mac">Mac</option> 
+			    <option value="linux">Linux</option> 
+    			<option value="otro">Otro</option> 
+      </select> </p>
+
+		<p><label for="so3">Sistema operativo</label> <br/>
+    <select id="so3" name="so3" size="5" multiple="multiple"> 
+  			<option value="windows" id="so3_1">Windows</option> 
+ 			  <option value="mac" id="so3_2">Mac</option> 
+			  <option value="linux" selected="selected" id="so3_3">Linux</option> 
+  			<option value="otro" id="so3_4">Otro</option> </select></p> 
+    <p><input type="submit" value="Enviar" /></p>
+  	</form> 
+	
+  </body> 
+</html> 
+

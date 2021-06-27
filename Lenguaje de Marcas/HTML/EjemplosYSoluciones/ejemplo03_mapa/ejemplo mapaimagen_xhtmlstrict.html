@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"> 
+    <head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Práctica HTML sobre mapa de imagen</title> 
+    </head> 
+  <body>
+    	<p><img src="imagen.gif" usemap="#mapa_zonas" alt="calc" /> 
+	<map id="mapa_zonas" > 
+  		<area shape="rect" coords="20,25,84,113"  alt="r" href="cuadrado.html" onclick='alert("Has pulsado en el nmero dos");'/> 
+  		<area shape="poly" coords="90,25,162,26,163,96,89,25,90,24" href="triangulo.html" alt="r" /> 
+   		<area shape="circle" coords="130,114,29" href="circulo.html" alt="r" /> 
+   		<area shape="rect" coords="19,156,170,211" href="mailto:rectangulo@direccion.com" alt="r"/>
+     		<area shape="default" nohref="nohref"  alt="r"/> 
+	</map></p>
+  </body>
+</html>
+

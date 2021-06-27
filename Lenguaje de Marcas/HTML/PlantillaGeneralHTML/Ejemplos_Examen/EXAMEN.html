@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 		
+	<title>Examen</title>
+	<!--. Todo lo que aparezca en gris, es un comentario. Esto no se muestra en pantalla y no hace falta\-->
+	<!--Esto es para que quede bonito ni lo mires, el css no lo ha preguntado -->
+	<style type="text/css">
+		.bonito{
+			width: 25%
+		}
+		.bonito2{
+			width: 70%
+		}
+	</style>
+</head>
+<body>
+
+<h1>Indice</h1>
+	<ol>
+      <li><a href="#listas">Ejemplo Listas</a></li>
+      <li><a href="#fuentes">Ejemplo Fuente</a></li>
+      <li><a href="#caracteresesp">Ejemplo Caracteres Especiales</a></li>
+      <li><a href="#tablas">Ejemplo Tablas</a></li>
+      <li><a href="#preformateado">Ejemplo Comando Preformateado</a></li>
+      <li><a href="#objetos">Ejemplo Insertar Objetos</a></li>
+      <li><a href="#formularios">Ejemplo Formularios</a></li>
+    </ol>
+<hr/>
+<h1><a name="listas"></a>Ejemplo Listas</h1>
+<!--. La listas, sirven para organizar hay dos tipos.
+	Estas listas hacen referencia a\-->
+	<ol><!--Aqui inicia la lista, son listas dentro de otras listas \-->
+  <li>
+    Lista de definiciones
+    <!--Aqui inicia la lista de definiciones \-->
+    <dl>
+    	<dt>Editor de texto</dt><!-- Titulo de la lista\-->
+		<dd>Aplicación que permite...</dd><!-- Definición\-->
+		<dt>Direccion física </dt>
+		<dd>Desde el punto de vista...</dd>
+    </dl>
+    <!--Aqui acaba la lista de definiciones\-->
+  </li>
+  <li>Lista no ordenada
+	<!--Aqui inicia la lista no ordenada\-->
+    <ul>
+      <li>Dispositivos de entrada</li>
+      <li>Dispositivos de salida</li>
+      <li>Unidad Central de Proceso</li>
+      <li>Unidades de Almacenamiento</li>
+    </ul>
+    <!--Aqui acaba la lista\-->
+  </li>
+  <li>Lista ordenada
+	<!--Aqui inicia la lista ordenada\-->
+    <ol>
+      <li>Dispositivos de entrada</li>
+      <li>Dispositivos de salida</li>
+      <li>Unidad Central de Proceso</li>
+      <li>Unidades de Almacenamiento</li>
+    </ol>
+    <!--Aqui acaba la lista\-->
+  </li>
+</ol>
+
+
+<hr/>
+<h1><a name="fuentes"></a>Ejemplo Fuente</h1>
+		<p>La siguiente palabra va estar en <b>negrita</b></p>
+		<p>La siguiente palabra va estar en <em>cursiva</em></p>
+		<p>La siguiente palabra va estar en <del> tachados</del></p>
+
+
+<hr/>
+<h1><a name="caracteresesp"></a>Ejemplo Caracteres Especiales &lt;blockquote&gt; (Dudo que entre)</h1> 
+<!--.
+	&lt; es igual a <
+	&gt; es igual a >
+	&quot; es igual a "
+	&gt; es igual a /
+	Esto se utiliza para insertar caracteres especiales que son utilizados para comandos
+\-->
+	<p> La sintaxis de la etiqueta &lt;blockquote&gt; se muestra a continuación: 
+	<br/><br/> 
+	&lt;blockquote cite=&quot;<em>...direccion original de la cita...</em>&quot;&gt;Texto que 	se cita&lt;/blockquote&gt; </p>
+
+<hr/>
+	<h1><a name="tablas"></a>Ejemplo Tablas</h1>
+		<table summary="Primera Tabla" border="1">
+			<caption>Primera Tabla</caption>
+			<tr>
+ 			<!--El elemento TH sirve para definirla como encabezado, es decir centrada y negrita.\-->
+				<th>Celda 1</th>
+				<th>Celda 2</th>
+				<th>Celda 3</th>
+			</tr>
+			<tr>
+				<td>Celda 4</td>
+				<td>Celda 5</td>
+				<td>Celda 6</td>
+			</tr>
+			<tr>
+				<td>Celda 7</td>
+				<td>Celda 8</td>
+				<td>Celda 9</td>
+			</tr>
+		</table>
+		<p><br/></p>
+		<table summary="Segunda Tabla" border="1">
+			<caption>Segunda Tabla Union de Celdas</caption>
+			<tr>
+				<!--. Colspan consiste en unir las celdas por columnas.
+					  Rowspan es utilizado para unir celdas por filas.
+					  Para realizar eso bien ten en cuenta que si juntas por ejemplo celda 1 y celda 2,
+					  tendras que eliminar la celda 2, si no fallara  \-->
+				<td colspan="2">Celda 1 y Celda 2 unidas</td>
+				<td rowspan="3">Celda 3, Celda 6 y Celda 9 unidas</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Celda 4 y Celda 7 unidas</td>
+				<td>Celda 5</td>
+			</tr>
+			<tr>
+				<td>Celda 8</td>
+			</tr>
+		</table> 
+		<hr/>
+			<h1><a name="preformateado"></a>Ejemplo Comando Preformateado</h1>
+
+<!--. El comando PRE sirve para respetar los tabuladores, espacios y saltos de linea 
+	CUIDADO, el comando PRE NO PUEDE ESTAR EN UN PARRAFO, SI NO DA ERROR AL VALIDAR\-->
+	 	<pre>
+Nombre        Diámetro relativo   Período orbital   Número de lunas
+-------------------------------------------------------------------
+Mercurio            0,382            0,24 años            0
+Venus               0,949            0,62 años            0
+Tierra              1                1    año             1
+Marte               0,532            1,88 años            2
+Júpiter            11,209           11,86 años           49
+Saturno		    	9,449           29,46 años           52
+Urano               4,007           84,01 años           27
+Neptuno             3,883          164,80 años           13
+			</pre>
+<hr/>
+		<h1><a name="objetos"></a>Ejemplo Insertar Objetos</h1>
+		<!--. Para que no de error, las paginas y videos han de ser insertados con object
+		Imagenes con img. El comando src sirve para definir la ruta del archivo.
+		Data sirve para seleccionar el archivo.
+		IMPORTANTE, si esta en otra carpeta, esta se debe definir.
+		Para retroceder, es ../NombreDelArchivo 
+		Los archivos no pueden contener espacios ni caracteres no permitidos.
+		ESTAN INSERTADOS EN TABLA PARA UNA MEJOR ORGANIZACIÓN.\-->
+
+
+		<table>
+		<tr>	
+				<td class="bonito">
+					<object data="https://www.youtube.com/embed/s8p_brCVNOA" ></object>
+				</td>
+				<td class="bonito">
+					<img src="Imagenes/Gif.gif" width="100%"  alt="Gif" /> 
+				</td>
+				<td class="bonito">
+					<img src="Imagenes/Imagen.png" width="100%" alt="Imagen" /> 
+				</td>
+				<td class="bonito">
+					<object data="Paginas/PDF.pdf" ></object>
+				</td>
+				<td class="bonito">
+					<object data="Paginas/HTML.html"></object>
+				</td>
+		</tr>
+		</table>
+<hr/>
+		<h1><a name="formularios"></a>Ejemplo Formularios</h1>
+<table>
+	<tr>
+		<td class="bonito2">
+			<h2>Formulario Básico</h2> 
+				<form  action="insertar_cv.php" method="post"  enctype="multipart/form-data">
+					<!--Los input tipo texto se utilizan para ingresar los datos \-->
+					<p>Nombre<br/> <input type="text" name="nombre" value="Prueba" /></p>
+					<p>Apellidos<br/> <input type="text" name="apellido" value="" /></p>
+					<p>Contraseña<br/><input type="password" name="contrasena" value=""/></p>
+					<!--Los input tipo radio se utilizan para seleccionar entre elementos \-->
+					<p>Sexo <br/> 
+						<input type="radio" name="sexo" value="mujer" /> Mujer 			
+						<input type="radio" name="sexo" value="hombre"  /> Hombre </p>
+					<!--Los input tipo file se utilizan para subir archivos \-->
+					<p>Incluir mi foto <input type="file" name="adjunto" /> </p>
+					<!--Textarea es utilizado para descripciones por ejmplo, es decir texto con mayor longitud.\-->
+					<p><textarea name="descripcion" rows="5" cols="41"></textarea></p>
+					<!--Los input tipo checkbox es una casilla de verificación.
+					Ademas podemos seleccionar si esta elegida por predeterminado, con checked="checked" \-->
+					<p> <input name="puesto_empleado" type="checkbox" value="empleado" checked="checked"/>Suscribirme al boletín de novedades </p>
+					<!--Los input tipo file se utilizan para hacer funciones, como borrar o enviar \-->
+					<p><input type="button"  name="guardar" value="Guardar cambios" /> 
+					<input type="reset" name="limpiar" value="Borrar datos del formulario" /> </p>
+
+				</form>
+		</td>
+		<td class="bonito2">
+			<h2>Formulario Estructurado</h2> 
+			<!--Lo unico que cambia es que ahora esta en un cuadro \-->
+			    <form action="maneja_formulario.php" method="post">
+			          <fieldset>
+			            <legend>Datos personales</legend><!--Se utiliza para definir el título\-->
+			            <p><label>Nombre</label> <br/>
+			            <input type="text" name="nombre" value="" />
+			            <br/></p>
+			            <p><label>Apellidos</label> <br/>
+			            <input type="text" name="apellidos" value="" />
+			            <br/></p>
+			            <p><label>DNI</label> <br/>
+			            <input type="text" name="dni" value="" size="10" maxlength="9" /></p>
+			            <!--Lista para seleccionar opcion\-->
+			            <select>
+			                <option>Enero</option>
+			                <option>Febrero</option>
+			                <option>Marzo</option>
+			                <option>Abril</option>
+			                <option>Mayo</option>
+			                <option>Junio</option>
+			                <option>Julio</option>
+			                <option>Septiembre</option>
+			                <option>Agosto</option>
+			                <option>Octubre</option>
+			                <option>Noviembre</option>
+			                <option>Diciembre</option>
+			            </select>
+			            <!--Otro tipo de select\-->
+			            <p><label for="TemasInt">Temas de interés</label> <br/>
+			                <select id="TemasInt" name="Temas" size="5" multiple="multiple">
+			                  <option value="ABD">Administración de base de datos</option>
+			                  <option value="AYP">Análisis y programación</option>
+			                  <option value="ARQ">Arquitectura</option>
+			                  <option value="CALIDAD">Calidad</option>
+			                  <option value="ERP">ERP, CRM, Business Intelligence</option> 
+			                  <option value="OTRO">Otro</option>
+                			</select></p>
+                		<!--Los input tipo checkbox es una casilla de verificación.
+						Ademas podemos seleccionar si esta elegida por predeterminado, con checked="checked" \-->
+						<p> <input name="puesto_empleado" type="checkbox" value="empleado" checked="checked"/>Suscribirme al boletín de novedades </p>
+						<!--Los input tipo file se utilizan para hacer funciones, como borrar o enviar \-->
+						<p><input type="button"  name="guardar" value="Guardar cambios" /> 
+						<input type="reset" name="limpiar" value="Borrar datos del formulario" /> </p>
+			          </fieldset>
+			    </form>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

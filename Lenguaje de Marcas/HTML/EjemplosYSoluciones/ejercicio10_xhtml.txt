@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 		
+  		<title>Nombr/e de la ventana</title> 
+       </head>
+  <body>
+    <table frame="box" rules="groups">
+      <colgroup>
+      </colgroup>
+      <colgroup>
+      </colgroup>
+      <colgroup span="3">
+      </colgroup>
+      <colgroup span="3">
+      </colgroup>
+      <colgroup span="2">
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th rowspan="2">Grupo</th>
+          <th rowspan="2">Elemento</th>
+          <th colspan="3">Tipo de elemento</th>
+          <th colspan="3">Puede contener</th>
+          <th colspan="3">Contenido explícito</th>
+        </tr>
+        <tr>
+          <th>Bloque</th>
+          <th>Línea</th>
+          <th>Vacío</th>
+          <th>bloques</th>
+          <th>líneas</th>
+          <th>scripts</th>
+          <th>permitido</th>
+          <th>prohibido</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th></th>
+          <th></th>
+          <th>Bloque</th>
+          <th>Línea</th>
+          <th>Vacío</th>
+          <th>bloques</th>
+          <th>líneas</th>
+          <th>scripts</th>
+          <th>permitido</th>
+          <th>prohibido</th>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th rowspan="5">Listas</th>
+          <td>DD</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>DL</td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>DL,DT</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>LI</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>OL</td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>LI</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>UL</td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>LI</td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th rowspan="3">Marcos</th>
+          <td>FRAME</td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>FRAMESET</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>FRAMESET,<br/>FRAMES,<br/>NOFRAMES</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>NOFRAMES</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+          <td></td>
+          <td>body</td>
+          <td>FRAMES</td>
+        </tr>
+      </tbody>
+      <tbody>
+         <tr>
+          <th rowspan="4">Formularios</th>
+          <td>FORM</td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+          <td>FORM</td>
+        </tr>
+        <tr>
+          <td>INPUT</td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>OPTION</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>datos</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>TEXTAREA</td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>datos</td>
+          <td></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </body>
+</html>

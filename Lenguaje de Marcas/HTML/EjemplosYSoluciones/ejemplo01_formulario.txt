@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"> 
+  <head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Ejemplo de formulario sencillo</title> 
+  </head> 
+  <body>
+	<h3>Formulario muy sencillo</h3> 
+	<form  action="maneja_formulario.php" method="post"  enctype="multipart/form-data">
+		<p>Escribe tu nombre: <input type="text" name="nombre" value="" /></p>
+		<p><input type="submit" value="Enviar" /> </p> 
+		
+
+		<p>Contraseña:<input type="password" name="contrasena" value="" /> </p>
+		
+		<p><br/>Puestos de trabajo buscados <br/>
+			<input name="puesto_directivo" type="checkbox" value="direccion"/> Dirección <br/>
+			<input name="puesto_tecnico" type="checkbox" value="tecnico"/>Técnico <br/>
+			<input name="puesto_empleado" type="checkbox" value="empleado" checked="checked"/> Empleado </p>
+
+		<p>Sexo <br/> 
+			<input type="radio" name="sexo" value="mujer" /> Mujer 			
+			<input type="radio" name="sexo" value="hombre"  /> Hombre </p>
+
+		<p><input type="reset" name="limpiar" value="Borrar datos del formulario" /> </p>
+
+		<p>Fichero adjunto <input type="file" name="adjunto" /> </p>
+
+		<p><input type="button" name="mostrar" value="Mostrar Mensaje" onclick="alert('hola');"/> </p>
+	</form> 
+  </body> 
+</html> 
+
