@@ -1,0 +1,234 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang3082{\fonttbl{\f0\fnil\fprq8\fcharset0 Verdana;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 Calibri;}{\f3\fnil\fcharset0 arial;}{\f4\froman\fprq2\fcharset0 arial;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sb403\sa198\sl252\slmult1\qc\cf1\expndtw20\caps\f0\fs28\lang10 PARTE pr\'e1ctica (\caps0 70\caps % de la nota)\par
+
+\pard\sb280\sa57\sl252\slmult1\cf2\expndtw0\ul\b\caps0\f1\fs22 NOTAS IMPORTANTES: \par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\sb57\sl252\slmult1\qj\ulnone\b0 Usar exclusivamente la m\'e1quina virtual Ubuntu 18.4 que preparasteis \par
+{\pntext\f5\'B7\tab}A\'f1ade a la m\'e1quina un segundo disco de 10 GB y ll\'e1mala particiones.\par
+{\pntext\f5\'B7\tab}Anotar en todas las acciones necesarias para que funcione lo que se pide y devolver en este documento con las acciones necesarias y las capturas que estime.\par
+{\pntext\f5\'B7\tab}Realiza todo en modo consola.\par
+{\pntext\f5\'B7\tab}Para responder a las preguntas debes indicar tambi\'e9n el comando o forma de acceder a esa respuesta.\par
+{\pntext\f5\'B7\tab}Usa \'e9ste mismo archivo para realizar el examen y una vez terminado pasalo a pdf con el nombre \b Examen_linux_nombre.pdf\par
+
+\pard\sb57\sl252\slmult1\cf0\b0\f2\par
+
+\pard\sb120\sa60\sl276\slmult1\cf2\expndtw6\f1 En una organizaci\'f3n se tiene el siguiente esquema de trabajo:\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\sb120\sa60\sl276\slmult1 Estructura de directorios: \par
+{\pntext\f5\'B7\tab}\i /home/Comerciales\par
+{\pntext\f5\'B7\tab}/home/Jefes\par
+{\pntext\f5\'B7\tab}/home/Departamento \par
+{\pntext\f5\'B7\tab}/home/Departamento/Ventas\par
+{\pntext\f5\'B7\tab}/home/Departamento/Administracion\par
+{\pntext\f5\'B7\tab}\i0 Usuarios:\par
+{\pntext\f5\'B7\tab}mruiz, "Matilde Ruiz"\par
+{\pntext\f5\'B7\tab}jlopez, "Jaime L\'f3pez"\par
+{\pntext\f5\'B7\tab}imarquez, "Isabel M\'e1rquez"\par
+{\pntext\f5\'B7\tab}osauca, "Olivia Sauca"\par
+{\pntext\f5\'B7\tab}vgamez, "Vanesa G\'e1mez"\par
+
+\pard\sb120\sa60\sl276\slmult1\qj Los comerciales tendr\'e1n su propio directorio personal dentro de \i /home/Comerciales\i0  y los jefes y el director en \i /home/Jefes\i0 . A los usuarios ponles 1234 de contrase\'f1a y obl\'edgales que cambien la contrase\'f1a cuando a la semana.\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\sb120\sa60\sl276\slmult1 Cargos:\par
+{\pntext\f5\'B7\tab}Directora: mruiz\par
+{\pntext\f5\'B7\tab}Jefes: jlopez, imarquez \par
+{\pntext\f5\'B7\tab}Comerciales: osauca, vgamez\par
+
+\pard\sb120\sa60\sl276\slmult1\cf0\expndtw0\f2\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\sb120\sa60\sl276\slmult1\cf2\expndtw6\f1 Pol\'edticas de acceso:\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\sb120\sa60\sl276\slmult1\qj A cada \b directorio personal de usuario\b0  y todo su contenido: Podr\'e1 acceder su due\'f1o con control total, y nadie m\'e1s. \par
+{\pntext\f5\'B7\tab}Al directorio \b\i Comerciales\b0\i0  solo puede acceder con control total el director, los comerciales lectura y escritura y los jefes lectura.\par
+{\pntext\f5\'B7\tab}Al directorio\b  \i Jefes\b0\i0 , solo puede tener acceso total el director y los jefes,  el resto nada.\par
+{\pntext\f5\'B7\tab}Al directorio \b\i Departamentos\b0\i0  puede acceder con control total el director y el resto lectura y ejecuci\'f3n.\par
+{\pntext\f5\'B7\tab}Al directorio \b\i Ventas\b0\i0  y su contenido podr\'e1n acceder con control total los comerciales y el director, el resto de usuarios en modo de s\'f3lo lectura y ejecuci\'f3n. \par
+{\pntext\f5\'B7\tab}Al directorio \b\i Administracion\b0\i0  y todo su contenido s\'f3lo puede acceder el director y los jefes con control total y el resto nada.\par
+{\pntext\f5\'B7\tab}Todo lo no indicado aqu\'ed expresamente, estar\'e1 prohibido. \par
+
+\pard\li1140\sb120\sa60\sl276\slmult1\cf0\expndtw0\f2\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\sb120\sa60\sl276\slmult1\tx720\cf2\expndtw6\f1 Instala \b gparted\expndtw0  (0.25 ptos.)\par
+
+\pard\sb120\sa60\sl276\slmult1\tx720\b0 sudo apt-get install gparted\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li360\sb120\sa60\sl276\slmult1\tx1457\expndtw6\f3 Implementa esta organizaci\'f3n de directorios, usuarios, grupos y permisos. \b (3 ptos.)\f1\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\b0 sudo adduser --home /home/Jefes/mruiz mruiz\par
+sudo adduser --home /home/Jefes/jlopez jlopez\par
+sudo adduser --home /home/Jefes/imarquez imarquez\par
+sudo adduser --home /home/Comerciales/osauca osauca\par
+\f3 sudo adduser --home /home/Comerciales/vgamez vgamez\par
+\par
+\b Usamos el comando sudo chage para que renueve la contrase\'f1a cada 7 d\'edas (una semana)\par
+\b0 sudo chage -m 7 -M 7 mruiz\par
+sudo chage -m 7 -M 7 jlopez\par
+sudo chage -m 7 -M 7 imarquez\par
+sudo chage -m 7 -M 7 osauca\par
+sudo chage -m 7 -M 7 vgamez\par
+\b\par
+\f1 Creaci\'f3n de los directorios que quedan:\par
+\b0 sudo mkdir /home/Departamento\par
+sudo mkdir /home/Departamento/Ventas\par
+sudo mkdir /home/\f3 Departamento/Administracion\f1\par
+\b\par
+Creo los grupos Comerciales y profesores:\par
+\b0 sudo addgroup Comerciales\par
+sudo addgroup Jefes\par
+\par
+\b A\'f1adimos los usuarios a cada grupo\par
+\b0 sudo adduser osauca Comerciales\par
+sudo adduser vgamez Comerciales\par
+sudo adduser jlopez Jefes\par
+sudo adduser mruiz Jefes\par
+sudo adduser imarquez Jefes\par
+\b\par
+\b0 sudo chown mruiz:Jefes /home/Departamento/Ventas\par
+sudo chown mruiz:Jefes /home/Departamento/Administracion\par
+\par
+sudo chmod 764 /home/Comerciales/osauca\par
+sudo chmod 764 /home/Comerciales/vgamez\par
+sudo chmod 770 /home/Jefes/mruiz\par
+sudo chmod 770 /home/Jefes/jlopez\par
+sudo chmod 770 /home/Jefes/imarquez\par
+sudo chmod 755 /home/Departamento\par
+sudo chmod 770 /home/Departamento/Administracion\par
+sudo chmod 757 /home/Departamento/Ventas\par
+\b\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-737\li737\sb120\sa60\sl276\slmult1\qj\tx1457\b0 Entra como un usuario que le permita introducir datos en el directorio \b\i Jefes\b0\i0  y crea un directorio llamado \b\i EXAMEN\b0\i0  colocate en \'e9l y realiza las siguientes operaciones \par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457 sudo mkdir /home/Jefes/EXAMEN\par
+cd /home/EXAMEN\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457\tx4427 Un fichero de texto que se llame \b\i usu.txt \b0\i0 que contenga las 10 ultimas filas del fichero /etc/passwd con los campos nombre, guid, home, shell ordenado por guip \expndtw0\b (0.5 ptos.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\tx4427\b0 cat /etc/passwd | head -10 | -k /nombre/guid/home/shell >usu.txt\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457\tx4427\expndtw6 Un fichero llamado \b\i grup.txt\b0\i0  que contenga las 10 ultimas filas del fichero /etc/group, con los campos: nombre del grupo,  ordenado por el guid.\expndtw0\b (0.5 ptos.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\tx4427\b0\f3 cut -d: -f 1,3 /etc/group | head -10 > grup.txt\f1\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li680\sb120\sa60\sl276\slmult1\qj\tx1400\expndtw6 Une esos 2 ficheros seg\'fan el guid en uno llamado \b\i usuariosygrupos.txt \i0 (0,75 pto.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1400\b0 join -t: -1 2 -2 2 usu.txt grup.txt > usuariosygrupos.txt\par
+\b\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457\cf0\expndtw0\b0 Crea un fichero llamado \b\i bash.txt\b0\i0  que contenga todos los registros del fichero \cf2\expndtw6\b\i usuariosygrupos.txt \cf0\expndtw0\b0\i0 que tengan de shell /bin/bash. \b (0.5 ptos)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\b0 cat usuariosygrupos.txt | grep /bin/bash > bash.txt\par
+\b\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457\b0 Crea un enlace simb\'f3lico al fichero  \cf2\expndtw6\b\i usuariosygrupos.txt \b0\i0 y llamalo enlace.txt. \b (0,25 ptos.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\b0 ln -s enlace.txt usuariosygrupos.txt \b\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457\tx2267\b0 Busca todos los ficheros \b .txt \b0 que hay en el directorio \b\i Jefes\b0\i0  y guarda la salida en un fichero llamado fichero.txt que tenga la siguiente estructura: \b (0.5 ptos)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\tx2267\par
+
+\pard\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457\tx2267\b0 FICHEROS TXT DE MI USUARIO\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\qj\cf0\expndtw0 ==========================\par
+
+\pard\qj /home/Jefes/EXAMEN/usu.txt\par
+/home/Jefes/EXAMEN/grup.txt \par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx720\tx1530\cf2\expndtw6\tab\'85.\par
+\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\tx2267\f3 echo "FICHEROS TXT DE MI USUARIO" > fichero.txt && echo\par
+"==========================" >> fichero.txt && find\par
+/home/Jefes *.txt >> fichero.txt\f1\par
+
+\pard\qj\cf0\expndtw0\f2\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457\tx1922\tx2267\cf2\expndtw6\f1 Copiar al directorio \b\i Jefes\b0\i0  los ficheros del directorio \b\i EXAMEN\b0\i0  que empiecen por usu y acaben .txt. \b (0,5 ptos.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\tx1922\tx2267\b0 cp /home/Jefes/EXAMEN/usu*.txt /home/Jefes\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457 Cambia los permisos necesarios para que los comerciales no puedan leer el fichero \b\i usuariosygrupos.txt\b0\i0  .\'bfQue m\'e1scara tienes? \b (0,25 ptos.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\b0 sudo chmod o-r usuariosygrupos.txt\par
+ls -l\par
+-rw-rw----\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li737\sb120\sa60\sl276\slmult1\qj\tx1457 Realiza los cambios oportunos en la m\'e1scara para que los ficheros que crees el propietario sea el \'fanico que pueda leer y escribir, el resto nada. Crea un documento de texto que se llame \b\i jefes.txt\b0\i0  y comprueba con que permisos se crea.\b (0,5 ptos.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\b0 umask 006\par
+touch jefes.txt\par
+ls -l\par
+-rw-rw----\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-850\li737\sb120\sa60\sl276\slmult1\qj\tx1457 Desde un terminal abre el \b editor\b0  y \b calendario (gnome-calendar)\b0  en segundo plano, c\'e1mbiale la prioridad al editor. Muestra todos los procesos. Indica los procesos que est\'e1n ejecut\'e1ndose en segundo plano. Mata el proceso gnome-calendar \b (0,5 pto.)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\b0 gnome-calendar &\par
+gedit\par
+renice 8 2819\par
+ps \par
+gedit &\par
+kill -9 1\b\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-794\li737\sb120\sa60\sl276\slmult1\qj\tx1457\b0 En el disco llamado \b particiones\b0  Crea las siguientes particiones usando una terminal (\ul indica todos los comandos utilizados\ulnone ): \b (1.5 ptos)\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1457\b0 sudo fdisk -l\par
+sudo fdisk /dev/sdb\b\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sb120\sa60\sl276\slmult1\qj\tx1440\b0 Partici\'f3n primaria, ext4 de 3 GB.\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1440 n (intro)\par
+p (intro)\par
+1 (intro)\par
+2048 (intro)\par
++3G (intro)\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sb120\sa60\sl276\slmult1\qj\tx1440 Partici\'f3n primaria, ext3 de 3 GB.\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1440 n(intro)\par
+p(intro)\par
+2 (intro)\par
+2048(intro)\par
++3G(intro)\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sb120\sa60\sl276\slmult1\qj\tx1440 Partici\'f3n l\'f3gica, swap  de 750 MB.\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1440 n (intro)\par
+e (intro)\par
+2 (intro)\par
++750M\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sb120\sa60\sl276\slmult1\qj\tx1440 Partici\'f3n l\'f3gica, ext4 con el resto del disco.\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1440\f3 n(intro)\par
+e(intro)\par
+1\par
+(intro)\par
+(intro) para utilizar el resto del espacio\f1\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sb120\sa60\sl276\slmult1\qj\tx1440 Monta la partici\'f3n de  \'faltima en un directorio llamado \b\i PARTICION\i0  \b0 situado en tu escritorio.\par
+
+\pard\sb120\sa60\sl276\slmult1\qj\tx1440 mkdir PARTICION\par
+sudo mount -t ext4 /dev/sdb1 /home/usuario/Escritorio/ PARTICION\par
+\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-340\li227\qj Guarda en un fichero llamado historico.txt la salida del \b\i history\b0\i0 .\b\i  \i0 (0.5 ptos.)\f4\par
+
+\pard\qj\par
+\b0\f1 history > historico.txt\par
+\par
+o \par
+\par
+history | grep sudo > historico.txt\par
+\b\f4\par
+}
+ 
