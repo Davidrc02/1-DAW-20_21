@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+
+    max-width: 900px;
+    min-width: 200px;
+    margin:0 auto;
+    text-align: justify;
+}
+
+p{
+    text-indent: 10px;
+}
+a{
+    font-style: italic;
+}
+span{
+    display: none;
+}

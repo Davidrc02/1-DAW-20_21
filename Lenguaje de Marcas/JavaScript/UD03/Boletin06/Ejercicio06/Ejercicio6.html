@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 		
+		<script type="text/javascript" src="Ejercicio6_Va.js"></script>	
+		<script type="text/javascript" src="utilidades06.js"></script>	
+  		<title>Ejemplo de validación de formulario</title> 
+	</head> 
+	<body> 
+		<form id="formulario" action="formulario.php" method="post" enctype="multipart/form-data">
+			<fieldset>
+				<legend>Información de la cuenta</legend>
+				<p>
+					<label for="email">Correo electrónico</label>
+					<input type="text" id="email"/>
+				</p>
+				<p>
+					<label for="password">Contraseña</label>
+					<input type="password" id="password"/>
+				</p>
+				<p>
+					<label for="password2">Confirmar contraseña</label>
+					<input type="password" id="password2"/>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Información personal</legend>
+				<p>
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre"/>
+	 			</p>
+	 			<p>
+					<label for="nombre2">Segundo Nombre</label>
+					<input type="text" id="nombre2"/>
+	 			</p>
+	 			<p>
+					<label for="apellidos">Apellidos</label>
+					<input type="text" id="apellidos"/>
+	 			</p>
+	 			<p>
+					<label for="nombrePuesto">Nombre del puesto</label>
+					<input type="text" id="nombrePuesto"/>
+	 			</p>
+	 			<p>
+					<label for="fechanac">Fecha de nacimiento</label>
+					<input type="text" id="fechanac" value="DD/MM/AAAA"/>
+	 			</p>
+	 			<p>
+					<label for="pais">País</label>
+					<select id="pais" size="1">
+						<option value="0">Seleccione...</option>
+						<option value="1">Pais 1</option>
+						<option value="2">Pais 2</option>
+						<option value="3">Pais 3</option>
+					</select>
+	 			</p>
+	 			<p>
+					<label for="ciudad">Ciudad</label>
+					<input type="text" id="ciudad"/>
+	 			</p>
+	 			<p>
+					<label for="codpost">Código postal</label>
+					<input type="text" id="codpost"/>
+	 			</p>
+	 			<p>
+					<label for="direccion">Dirección</label>
+					<input type="text" id="direccion"/>
+	 			</p>
+	 			<p>
+					<input type="checkbox" id="oracle" value="oracle"/>
+					<label for="oracle">Sí, me gustaría ser miembro de Oracle</label>
+	 			</p>
+	 			<p>
+					<input type="checkbox" id="w3c" value="w3c"/>
+					<label for="w3c">Sí, me gustaría ser miembro de W3C</label>
+	 			</p>
+	 			<p>
+					<input type="checkbox" id="noSub" value="noSub"/>
+					<label for="noSub">No deseo recibir subscripciones</label>
+	 			</p>
+			</fieldset>
+			<p>
+				<input type="button" id="crear" value="Crear cuenta"/>
+			</p>
+		</form>
+	</body>
+</html>

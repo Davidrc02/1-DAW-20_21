@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 		
+  		<title>Ejercicio06</title> 
+		<script type="text/javascript" src="Ejercicio06.js"></script>
+		<link rel="stylesheet" href="Ejercicio06.css" type="text/css"/>
+	</head> 
+
+	<body> 
+		<header>
+			<h1>Ejercicio 06</h1>
+			<h4>Añadir una función llamada elementoSeleccionado( objeto lista). Esta función 
+				deberá devolver true si la lista tiene algún elemento seleccionado. En caso 
+				contrario, se devolverá false. Consideramos que el primer elemento de la lista 
+				no es una selección válida.
+			</h4>
+			<hr/>
+		</header>
+		<main>	
+			<fieldset>
+				<legend>Test Checks:</legend>
+				<form action="" method="post">
+				<ul id="lista">
+					<li>
+						<input type="checkbox" name="c1" id="c1" value="c1">
+						<label for="c1">Test 1 - Este no cuenta.</label>
+					</li>
+					<li>
+						<input type="checkbox" name="c2" id="c2" value="c2">
+						<label for="c2">Test 2</label>
+					</li>
+					<li>
+						<input type="checkbox" name="c3" id="c3" value="c3">
+						<label for="c3">Test 3</label>
+					</li>
+					<li>
+						<input type="checkbox" name="c4" id="c4" value="c4">
+						<label for="c4">Test 4</label>
+					</li>
+					<li>
+						<input type="checkbox" name="c5" id="c5" value="c5">
+						<label for="c5">Test 5</label>
+					</li>	
+				</ul>
+			</fieldset>
+			
+				<p> <input type="button" value="Probar" onclick="elementoSeleccionado('lista')"/>
+					<input type="reset" value="Reset"/>
+				</p>
+			</form>
+
+		</main>
+	</body>
+</html>
