@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../CSS.css">
+</head>
+      <body>
+            <div class="cabeza">
+              <div id="menu">
+                <ul>
+          <li><a href="../index.html">Inicio</a></li>
+
+          <li>
+          <a href="suplementacion.html">Suplementación</a>
+            <ul>
+                <li><a href="#">Proteína</a></li>
+                <li><a href="#">Creatina</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="materiales.html">Material de Entrenamiento</a>
+        <ul>
+                  <li><a href="#">Mancuernas</a></li>
+                  <li><a href="#">Barras olímpicas</a></li>
+            </ul>
+        </li>
+
+        <li><a href="Accesorios.html">Accesorios</a>
+        <ul>
+                  <li><a href="#">Shakers</a></li>
+                  <li><a href="#">Combas</a></li>
+                </ul>
+        </li>
+
+      <li><a href="iniciarses.html">Inicio Sesion</a>
+        
+        </li>
+
+
+      </ul>
+              </div></div>
+              <div class="content">
+                <h1>Inicio</h1>
+                <div class="columnas" >
+                  <div class="columna2">
+                    <form action="maneja_formulario.php" method="post">
+                        <fieldset>
+                          <legend><b>Login</b></legend>
+                          <p>
+                            <label>Correo electrónico:</label><br>
+                            <input type="text" name="correo" value="" />
+                            <br><br><label>Clave:</label><br>
+                            <input type="text" name="clave" value="" />
+                          </p>
+                    <input type="reset" name="limpiar" value="Iniciar" />
+                        </fieldset>
+                  </form>
+
+                  </div>
+                  <div class="columna2">
+                    <form><fieldset>
+                  <legend><b>Registro</b></legend>
+                  <p>
+                      <label>Apellidos</label><br>
+                      <input type="text" name="apellidos" value="" />
+                      <br><br><label>Nombre</label><br>
+                      <input type="text" name="nombre" value="" />
+                      <br><br><label>Dirección</label><br>
+                      <input style="width: 23%" type="text" name="dia" value="C. Postal" />                     
+                      <select style="width: 23%">
+                          <option>España</option>
+                          <option>Portugal</option>
+                          <option>Andorra</option>
+                      </select>
+                      <input style="width: 48%" type="text" name="anio" value="Nº/ Calle" />
+                  </p>
+                  <p>
+                    <label>F. Nacimiento</label><br>
+                      <input style="width: 23%" type="text" name="dia" value="DD" />
+                      <input style="width: 23%" type="text" name="mes" value="MM" />
+                      <input style="width: 48%" type="text" name="anio" value="AAAA" />
+                      <p><label><input id="marcar" name="puesto_empleado" type="checkbox" value="privacidad" />Aceptar la política de Privadidad</label><br/>
+                <br/><p>
+                  </p>
+                  <input id="formenviar" type="reset" name="limpiar" value="Borrar registro" />
+                  <input id="formenviar" type="button" name="limpiar" value="Registrarse" />
+                    </fieldset></form> 
+                    
+                  </div>
+                </div></div>
+                <div class="footer">
+                <p>Realizado por David Rodriguez Cano</p>
+              </div>
+
+      </body>
+</html>
