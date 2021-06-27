@@ -1,0 +1,9 @@
+<!ELEMENT ies (modulos)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (profesor,asignaturas)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT asignaturas (asig1,horas,asig2,horas,asig3,horas)>
+<!ELEMENT asig1 (#PCDATA)>
+<!ELEMENT horas (#PCDATA)>
+<!ELEMENT asig2 (#PCDATA)>
+<!ELEMENT asig3 (#PCDATA)>

@@ -1,0 +1,2 @@
+<!ELEMENT discoteca (cancion)>
+<!ELEMENT cancion (#PCDATA)>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ies SYSTEM "cristianPrueba.dtd">
+<ies>
+    <modulos>
+        <modulo>
+            <profesor>MJ</profesor>
+            <asignaturas>
+                <asig1>LM</asig1>
+                    <horas>5</horas>
+                <asig2>BBDD</asig2>
+                    <horas>5</horas>
+                <asig3>PROG</asig3>
+                    <horas>5</horas>
+            </asignaturas>
+        </modulo>
+        <modulo>
+            <profesor>ANA</profesor>
+            <asignaturas>
+                <asig1>LM</asig1>
+                    <horas>5</horas>
+                <asig2>BBDD</asig2>
+                    <horas>5</horas>
+                <asig3>PROG</asig3>
+                    <horas>5</horas>
+            </asignaturas>
+        </modulo>
+    </modulos>
+</ies>
