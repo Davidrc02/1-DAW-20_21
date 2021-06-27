@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"> 
+    <head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="ejemplo1_selectores.css" rel="stylesheet" type="text/css"/>
+	<title>Práctica HTML sobre listas</title> 
+    </head> 
+  <body>
+    <h1 id="inicio">IES Julio Verne</h1>
+    <hr/>
+    <h2 id="indice">Índice</h2>
+    <ol>
+      <li>Introducción</li>
+      <li><a href="#ense">Enseñanzas</a></li>
+      <li><a href="#infor">Informática</a></li>
+      <li><a href="#enlaces">Enlaces de Interés</a></li>
+    </ol>
+    <hr/>
+    
+    <h2>Enseñanzas</h2>
+    <p>En este centro se imparten las siguientes enseñanzas:</p>
+    <ul>
+      <li>Obligatorias
+        <ul>
+          <li>ESO
+		<p>Distintos grupos de ESO</p>
+		<p>Desde 2 grupos por nivel</p>	
+	  </li>
+        </ul>
+      </li>
+      <li>Post-obligatorias
+        <ul>
+          <li>Bachillerato</li>
+          <li>Ciclos Formativos
+            <ul>
+              <li>Administración</li>
+              <li>Informática</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <hr/>
+    <p>Para consultar otros datos acuda a su página web.</p>
+  </body>
+</html>
+
